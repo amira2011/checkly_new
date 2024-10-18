@@ -18,8 +18,9 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
 
-    - name: Run Playwright tests
-      run: npx playwright test
+    - name: Run Checkly tests
+      run: npx checkly test
+
       env:
         CI: true
    
