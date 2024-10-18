@@ -43,7 +43,7 @@ test("Auto Rate Form Mobile", async ({ browser }) => {
 
       // Verify that the page has loaded
       expect(response.status()).toBe(200);
-      console.log("deploy")
+      console.log("deploy 123")
       // Call the function to select vehicle year, make, and model
       await vehicle_year_make_model(page);
 
